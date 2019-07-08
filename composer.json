@@ -1,0 +1,12 @@
+{
+    "name": "kolya/my-frame-work",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Base\\":"Base",
+            "Router\\":"Router",
+            "Controller\\":"Controller"
+
+        }
+    }
+}
