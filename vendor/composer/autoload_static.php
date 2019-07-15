@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit547409f047434b7050883a3280e5d7e6
 {
     public static $prefixLengthsPsr4 = array (
+        'V' => 
+        array (
+            'View\\' => 5,
+        ),
         'R' => 
         array (
             'Router\\' => 7,
@@ -22,6 +26,10 @@ class ComposerStaticInit547409f047434b7050883a3280e5d7e6
     );
 
     public static $prefixDirsPsr4 = array (
+        'View\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/View',
+        ),
         'Router\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Router',
@@ -42,6 +50,7 @@ class ComposerStaticInit547409f047434b7050883a3280e5d7e6
         'Controller\\BaseController' => __DIR__ . '/../..' . '/Controller/BaseController.php',
         'Router\\BaseRouter' => __DIR__ . '/../..' . '/Router/BaseRouter.php',
         'Router\\GetRouter' => __DIR__ . '/../..' . '/Router/GetRouter.php',
+        'View\\ViewBuilder' => __DIR__ . '/../..' . '/View/ViewBuilder.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

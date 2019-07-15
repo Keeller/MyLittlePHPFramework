@@ -12,12 +12,11 @@ use Base\Entity;
 class ViewBuilder extends Entity
 {
 
-    public static function  draw(string $path,array $vars)
+    public static function  draw(string $path,array &$vars)
     {
-
-        $page=file_get_contents($path);
-
-
+        extract($vars,EXTR_OVERWRITE);
+        //var_dump($path);die();
+        require_once $path;
 
     }
 

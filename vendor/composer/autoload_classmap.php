@@ -11,4 +11,5 @@ return array(
     'Controller\\BaseController' => $baseDir . '/Controller/BaseController.php',
     'Router\\BaseRouter' => $baseDir . '/Router/BaseRouter.php',
     'Router\\GetRouter' => $baseDir . '/Router/GetRouter.php',
+    'View\\ViewBuilder' => $baseDir . '/View/ViewBuilder.php',
 );
